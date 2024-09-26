@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicios-logica", "exercicios-logica\exercicios-logica.csproj", "{FFE6D655-9994-44E5-804C-92BBEB0EB761}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicios-solucoes", "exercicios-solucoes\exercicios-solucoes.csproj", "{A380F1BA-8695-41B4-A987-ACF05F168EFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{FFE6D655-9994-44E5-804C-92BBEB0EB761}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFE6D655-9994-44E5-804C-92BBEB0EB761}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFE6D655-9994-44E5-804C-92BBEB0EB761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A380F1BA-8695-41B4-A987-ACF05F168EFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A380F1BA-8695-41B4-A987-ACF05F168EFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A380F1BA-8695-41B4-A987-ACF05F168EFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A380F1BA-8695-41B4-A987-ACF05F168EFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
