@@ -1,4 +1,6 @@
-﻿namespace exercicios_solucoes;
+﻿using exercicios_logica.Solucao;
+
+namespace exercicios_solucoes;
 
 class Program
 {
@@ -10,7 +12,8 @@ class Program
             Console.WriteLine("Lista de exercicios!\n" +
                 "\nSelecione o exercicio para abrir a solucao!\n" +
                 "\n0 - Sair\n" +
-                "\n1 - Exercicio 01"
+                "\n1 - Exercicio 01" +
+                "\n2 - Exercicio 02"
                 );
 
             var escolhaUsuario = Console.ReadLine();
@@ -21,6 +24,11 @@ class Program
                 case "1":
                     Exercicio01 helloWorld = new Exercicio01();
                     helloWorld.MostrarExercicio01();
+                    break;
+                
+                case "2":
+                    Exercicio02 boasVindas = new Exercicio02();
+                    boasVindas.MostrarExercicio02();
                     break;
 
                 case "0":

@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicios-logica", "exercicios-logica\exercicios-logica.csproj", "{FFE6D655-9994-44E5-804C-92BBEB0EB761}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicios-solucoes", "exercicios-solucoes\exercicios-solucoes.csproj", "{A380F1BA-8695-41B4-A987-ACF05F168EFF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exercicios-solucao", "exercicios-solucao\exercicios-solucao.csproj", "{A380F1BA-8695-41B4-A987-ACF05F168EFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
