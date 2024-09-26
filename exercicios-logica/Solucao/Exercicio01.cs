@@ -5,6 +5,7 @@
         public void MostrarExercicio01()
         {
             Console.WriteLine("Hello, World!");
+            Console.ReadLine();
         }
     }
 }
