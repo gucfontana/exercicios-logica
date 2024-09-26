@@ -14,7 +14,8 @@ class Program
                 "\n0 - Sair\n" +
                 "\n1 - Exercicio 01" +
                 "\n2 - Exercicio 02" +
-                "\n3 - Exercicio 03"
+                "\n3 - Exercicio 03" +
+                "\n4 - Exercicio 04"
                 );
 
             var escolhaUsuario = Console.ReadLine();
@@ -35,6 +36,11 @@ class Program
                 case "3":
                     Exercicio03 nomeESalario = new Exercicio03();
                     nomeESalario.MostrarExercicio03();
+                    break;
+                
+                case "4":
+                    Exercicio04 somaNumeros = new Exercicio04();
+                    somaNumeros.MostrarExercicio04();
                     break;
                 
                 case "0":
