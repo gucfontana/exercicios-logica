@@ -12,7 +12,7 @@
 
             double media = (primeiraNota + segundaNota) / 2;
             
-            Console.WriteLine($"A média é: {media}");
+            Console.WriteLine($"A média entre {primeiraNota} e {segundaNota} é: {media}");
 
             Console.ReadLine();
         }

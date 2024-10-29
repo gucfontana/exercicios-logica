@@ -16,7 +16,8 @@ class Program
                 "\n2 - Exercicio 02" +
                 "\n3 - Exercicio 03" +
                 "\n4 - Exercicio 04" +
-                "\n5 - Exercicio 05"
+                "\n5 - Exercicio 05" +
+                "\n6 - Exercicio 06"
                 );
 
             var escolhaUsuario = Console.ReadLine();
@@ -47,6 +48,11 @@ class Program
                 case "5":
                     Exercicio05 mediaNotas = new Exercicio05();
                     mediaNotas.MostrarExercicio05();
+                    break;
+                
+                case "6":
+                    Exercicio06 antecessorSucessor = new Exercicio06();
+                    antecessorSucessor.MostrarExercicio06();
                     break;
                 
                 case "0":
